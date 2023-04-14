@@ -1,3 +1,4 @@
-def hello(name):
-    print(f" Hello {name}")
+def hello(*names):
+    for name in names:
+        print(f" Hello {name}")
     

@@ -17,3 +17,21 @@ def divide(g, h):
 def remainder(i, j):
     answer4 = i % j
     return answer4
+
+def sum(*numbers):
+    answer = 0
+    for number in numbers:
+        answer+=number
+    return answer
+
+def multiplication(*nums):
+    mul = 1
+    for num in nums:
+        mul*=num
+    return mul
+
+def sum(*numbers):
+    answer = 0
+    for number in numbers:
+        answer+=number
+    return answer
